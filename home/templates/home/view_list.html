@@ -1,0 +1,9 @@
+{% extends 'home/base.html' %}
+
+{% block content %}
+<h3>All you lists are:</h3>
+
+{% for td in user.todolist.all %}
+    <p><a href="/show_items/{{td.id}}"> {{td.name}} </a></p>
+{% endfor %}
+{% endblock content %}

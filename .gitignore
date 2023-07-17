@@ -1,0 +1,7 @@
+env/
+assets/
+
+# Byte-Compiled/ Optimized / DLL files
+__pycache__/
+*.py[cod]
+migrations/
